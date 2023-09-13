@@ -57,7 +57,8 @@ hr {
     padding-top: 15px;
 }
 
-.fourth-container {
+.fourth-container,
+.fifth-container {
     display: flex;
     padding-left: 200px;
     margin-top: 20px;
@@ -66,6 +67,11 @@ hr {
 .cat-name {
     margin-left: 125px;
     margin-bottom: 20px;
+}
+
+.images-categories p {
+    word-wrap: break-word;
+    border: 1px solid red;
 }
 
 .list-one,
@@ -142,6 +148,5 @@ hr {
 .add-button:hover{
     cursor: pointer;
 }
-
 
 
