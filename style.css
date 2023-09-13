@@ -119,17 +119,28 @@ hr {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    border-bottom: 1px solid rgb(225, 223, 223);
+    margin-bottom: 10px;
 }
 
 .price p,
 .add-button {
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .add-button {
     width: 100px;
     border-radius: 25px;
-    background-color: linear-gradient(to right, #f28545, );
+    background: linear-gradient(to right, #f28545, #e95a28);
+    border: none;
+    font-size: 20px;
+    height: 2rem;
+    color: white;
+}
+
+.add-button:hover{
+    cursor: pointer;
 }
 
 
